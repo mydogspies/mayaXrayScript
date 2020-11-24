@@ -1,0 +1,6 @@
+$xrayStatus = `displaySurface -q -xRay`;
+if ($xrayStatus[0] == 0) {
+    displaySurface -xRay true;
+} else {
+    displaySurface -xRay false;
+};
